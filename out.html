@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourism 2020</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="css/style.css">Navbar</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="index.html" id="navbardrop" data-toggle="dropdown">
+            Inicio
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="index.html">Lugar</a>
+            <a class="dropdown-item" href="look.html">Turismo Virtual</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="vr.html">Realidad Virtual</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="out.html">Datos de contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <br>
+  <h1>Proyecto de realidad virtual con Turismo (CIFP San Cristóbal)</h1>
+  <h2> Imagina ponerte las gafas VR y viajar al pasado...</h2>
+  <br>
+  <div id="my-images">
+    <img src="img/foto_antigua_2.jpg" alt="Foto antigua 2">
+    <img src="img/foto_antigua_3.jpg" alt="Foto antigua 3">
+    <img src="img/foto_antigua_4.jpg" alt="Foto antigua 4">
+    <img src="img/foto_antigua_1.jpg" alt="Foto antigua 1">
+    <img src="img/foto_antigua_5.jpg" alt="Foto antigua 5">
+    <img src="img/foto_antigua_6.jpg" alt="Foto antigua 6">
+  </div>
+  <br>
+
+  <h2>Escriba sus datos para poder contactarle:</h2>
+  <div class="container">
+    <form action="out.html">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Nombre</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="nombre" placeholder="Tu nombre...">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Apellidos</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="apellidos" placeholder="Tus apellidos...">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Comunidad Autónoma</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="comunidad autónoma">
+            <option value="australia">Andalucía</option>
+            <option value="canada">Aragón</option>
+            <option value="usa">Principado de Asturias</option>
+            <option value="usa">Islas Baleares</option>
+            <option value="usa">Canarias</option>
+            <option value="usa">Cantabria</option>
+            <option value="usa">Castilla- La Mancha</option>
+            <option value="usa">Castilla y León</option>
+            <option value="usa">Cataluña</option>
+            <option value="usa">Comunidad Valenciana</option>
+            <option value="usa">Extremadura</option>
+            <option value="usa">Galicia</option>
+            <option value="usa">La Rioja</option>
+            <option value="usa">Comunidad de Madrid</option>
+            <option value="usa">Región de Murcia</option>
+            <option value="usa">Comunidad Foral de Navarra</option>
+            <option value="usa">País Vasco</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Comentarios</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="comentarios" placeholder="Comentarios..." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <br>
+</body>
+
+</html>

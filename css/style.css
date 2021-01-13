@@ -1,0 +1,102 @@
+h1 {
+   text-align:center; color:slategrey;
+}
+
+h2 {
+    text-align:center; color:darkgray;
+}
+
+h3{
+  text-align: center; 
+  color:lightslategrey;
+}
+
+img {
+    width:200px; 
+    height:200px;
+}
+
+#my-images {
+  text-align: center;
+}
+
+#my-images2 {
+  text-align: center;
+}
+
+#my-images3 {
+  text-align: center;
+}
+
+#ubi {
+  text-align: center;
+}
+
+#imCar {
+  width: 500;
+  height: 500;
+  margin: auto
+}
+
+#controls {
+  color: black
+}
+
+#Par {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#Ub {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#Table1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 1px solid black;
+  padding-bottom: 0px;
+}
+
+body{
+  background-color: beige;
+  position: relative
+}
+
+#legend {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#vr {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#section2 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#section3 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#carousel {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+#ind  {
+  color: black
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
